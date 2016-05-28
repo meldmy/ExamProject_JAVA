@@ -1,4 +1,4 @@
-package com.family_budget.type;
+package com.family_budget.spends;
 
 /**
  * Created by Dmytro Melnychuk on 08.04.16.

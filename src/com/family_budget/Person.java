@@ -7,11 +7,16 @@ import java.util.Map;
  * Created by Dmytro Melnychuk on 07.04.16.
  */
 public interface Person {
+
+
+
     String getName();
+
+    String getKeyForOperations();
 
     Integer getSallaryPerMonth();
 
-    Integer getConstandSpendsPerMonth();
+    Integer getConstantSpendsPerMonth();
 
     Map getTotalOfSpentMoneyPerYear();
 
