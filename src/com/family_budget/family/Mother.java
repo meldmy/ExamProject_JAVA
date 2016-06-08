@@ -6,22 +6,20 @@ import java.util.Map;
 /**
  * Created by Dmytro Melnychuk on 14/05/16.
  */
-public class Mother extends PersonBase{
+public class Mother extends PersonBase {
     final String name;
-    private int summaryCost=0;
+    private int summaryCost = 0;
 
-    public Mother(String name){
-        this.name=name;
+    public Mother(String name) {
+        this.name = name;
     }
 
-    public void addNewSpendToSummarySpend(Number sum)
-    {
-        summaryCost+=(Double) sum;
+    public void addNewSpendToSummarySpend(Number sum) {
+        summaryCost += (Double) sum;
     }
 
     @Override
-    public String getKeyForOperations()
-    {
+    public String getKeyForOperations() {
         return "mother";
     }
 

@@ -3,7 +3,7 @@ package com.family_budget.spends;
 /**
  * Created by Dmytro Melnychuk on 08.04.16.
  */
-public abstract class Service implements SpendType{
+public abstract class Service implements SpendType {
 
     protected double price;
 
@@ -16,7 +16,7 @@ public abstract class Service implements SpendType{
         return price;
     }
 
-    private void setPrice(double priceForUpdating ){
-           price=priceForUpdating;
+    private void setPrice(double priceForUpdating) {
+        price = priceForUpdating;
     }
 }

@@ -10,11 +10,11 @@ public class SpendCollectorPair {
     double spendSum;
 
     public SpendCollectorPair(String currentSpendType, double spendSum) {
-        this.currentSpendType=currentSpendType;
-        this.spendSum=spendSum;
+        this.currentSpendType = currentSpendType;
+        this.spendSum = spendSum;
     }
 
-    public boolean containSpendType(String currentSpendType){
+    public boolean containSpendType(String currentSpendType) {
         return this.currentSpendType.equalsIgnoreCase(currentSpendType);
     }
 

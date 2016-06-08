@@ -18,26 +18,20 @@ public class PersonContainer {
 
     private static final Person son = new Son(SON_NAME);
 
-    public static Person receivePerson(String personName)throws ApsentPersonInMetaDataException
-    {
-        if(personName.equalsIgnoreCase(mother.getKeyForOperations()))
-        {
+    public static Person receivePerson(String personName) throws ApsentPersonInMetaDataException {
+        if (personName.equalsIgnoreCase(mother.getKeyForOperations())) {
             return mother;
-        }else if (personName.equalsIgnoreCase(father.getKeyForOperations()))
-        {
+        } else if (personName.equalsIgnoreCase(father.getKeyForOperations())) {
             return father;
-        }else if (personName.equalsIgnoreCase(son.getKeyForOperations()))
-        {
+        } else if (personName.equalsIgnoreCase(son.getKeyForOperations())) {
             return son;
-        }else
-        {
+        } else {
             throw new ApsentPersonInMetaDataException();
         }
     }
 
-    public static String getAllAvailablePersonsFromFamilyForOperations()
-    {
-        return "\""+father.getKeyForOperations()+"\", \" "+mother.getKeyForOperations()+"\", \""+son.getKeyForOperations()+"\"";
+    public static String getAllAvailablePersonsFromFamilyForOperations() {
+        return "\"" + father.getKeyForOperations() + "\", \" " + mother.getKeyForOperations() + "\", \"" + son.getKeyForOperations() + "\"";
 
     }
 }

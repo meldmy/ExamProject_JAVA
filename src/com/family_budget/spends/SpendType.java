@@ -5,5 +5,5 @@ package com.family_budget.spends;
  */
 public interface SpendType {
 
-    String  getType();
+    String getType();
 }

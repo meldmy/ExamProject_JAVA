@@ -9,17 +9,17 @@ import java.util.*;
  */
 public class SpendsNameContainer {
 
-    public static Map<String, HashSet<String>> AVAILABLE_SPENDS_WITH_TYPE(){
+    public static Map<String, HashSet<String>> AVAILABLE_SPENDS_WITH_TYPE() {
         Map availableSpends = new HashMap<String, HashSet<String>>();
-        availableSpends.put("Goods", Collections.unmodifiableSet(receiveAvailableGoods()) );
-        availableSpends.put("Service", Collections.unmodifiableSet(receiveAvailableServises()) );
+        availableSpends.put("Goods", Collections.unmodifiableSet(receiveAvailableGoods()));
+        availableSpends.put("Service", Collections.unmodifiableSet(receiveAvailableServises()));
         return availableSpends;
     }
 
-    public static Set<String> AVAILABLE_SPENDS(){
+    public static Set<String> AVAILABLE_SPENDS() {
         Set availableSpends = new HashSet<>();
-        availableSpends.addAll(Collections.unmodifiableSet(receiveAvailableGoods()) );
-        availableSpends.addAll(Collections.unmodifiableSet(receiveAvailableServises()) );
+        availableSpends.addAll(Collections.unmodifiableSet(receiveAvailableGoods()));
+        availableSpends.addAll(Collections.unmodifiableSet(receiveAvailableServises()));
         return availableSpends;
     }
 

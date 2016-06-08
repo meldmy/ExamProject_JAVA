@@ -10,25 +10,20 @@ import java.util.Map;
  */
 public class SpendsData {
 
-    Map<Person, SpendCollectorPair > simpleDataStorage =  new HashMap<>();
-    Map<Person, Double> currentBalance =  new HashMap<>();
+    Map<Person, SpendCollectorPair> simpleDataStorage = new HashMap<>();
+    Map<Person, Double> currentBalance = new HashMap<>();
 
-    public void addNewSpend(Person person, SpendCollectorPair currentSpendPair)
-    {
-        if(simpleDataStorage.containsKey(person)){
-            if(simpleDataStorage.get(person).containSpendType(currentSpendPair.getCurrentSpendType()))
-            {
+    public void addNewSpend(Person person, SpendCollectorPair currentSpendPair) {
+        if (simpleDataStorage.containsKey(person)) {
+            if (simpleDataStorage.get(person).containSpendType(currentSpendPair.getCurrentSpendType())) {
                 simpleDataStorage.put(person, receiveNewSpendCollectorPair(person, currentSpendPair));
-            }
-            else
-            {
+            } else {
                 simpleDataStorage.put(person, currentSpendPair);
             }
-        }
-        else {
+        } else {
             simpleDataStorage.put(person, currentSpendPair);
         }
-        currentBalance.put(person, currentBalance.get(person)-currentSpendPair.getSpendSum());
+        currentBalance.put(person, currentBalance.get(person) - currentSpendPair.getSpendSum());
     }
 
     public Map<Person, SpendCollectorPair> getSimpleDataStorage() {
@@ -36,13 +31,13 @@ public class SpendsData {
     }
 
     private SpendCollectorPair receiveNewSpendCollectorPair(Person person, SpendCollectorPair currentSpendPair) {
-        return new SpendCollectorPair(currentSpendPair.getCurrentSpendType(), simpleDataStorage.get(person).getSpendSum()+currentSpendPair.getSpendSum());
+        return new SpendCollectorPair(currentSpendPair.getCurrentSpendType(), simpleDataStorage.get(person).getSpendSum() + currentSpendPair.getSpendSum());
     }
 
     public void addNewIncome(Person personAddMoney, double incomeSum) {
-        if(currentBalance.containsKey(personAddMoney)){
-            currentBalance.put(personAddMoney, currentBalance.get(personAddMoney)+incomeSum);
-        }else {
+        if (currentBalance.containsKey(personAddMoney)) {
+            currentBalance.put(personAddMoney, currentBalance.get(personAddMoney) + incomeSum);
+        } else {
             currentBalance.put(personAddMoney, incomeSum);
         }
     }

@@ -6,7 +6,7 @@ import com.sun.jdi.connect.Connector;
 /**
  * Created by Dmytro Melnychuk on 09.04.16.
  */
-public class Clothes extends Goods{
+public class Clothes extends Goods {
 
     public static String SPEND_TYPE_NAME = "Clothes";
 
@@ -14,8 +14,8 @@ public class Clothes extends Goods{
 
     public Clothes(String name, double price) {
 
-        this.name=name;
-        super.price=price;
+        this.name = name;
+        super.price = price;
     }
 
 

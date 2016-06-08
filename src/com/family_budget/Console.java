@@ -17,9 +17,7 @@ import java.io.InputStreamReader;
 public class Console {
 
     public static void main(String[] args) throws IOException {
-        Person personWhoSpendMoney;
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-
         System.out.println("Program work till time that you enter word \"exit\" (without brackets)");
         System.out.println("You can choose who current spend money. Available persons: "
                 + PersonContainer.getAllAvailablePersonsFromFamilyForOperations());
@@ -40,10 +38,10 @@ public class Console {
 
             namePersonWhoSpendMoney = bufferedReader.readLine();
             try {
-                currentPerson= PersonContainer.receivePerson(namePersonWhoSpendMoney);
+                currentPerson = PersonContainer.receivePerson(namePersonWhoSpendMoney);
                 System.out.print("Write which type of finance operation you will doing now (spend, income): ");
                 typeOperation = bufferedReader.readLine();
-                if(typeOperation.equalsIgnoreCase("spend")) {
+                if (typeOperation.equalsIgnoreCase("spend")) {
                     if (!spendReceiver.containsPerson(currentPerson)) {
                         System.out.print("Write how much money " + currentPerson.getName() + " has now in the account: ");
                         spendReceiver.addNewIncome(currentPerson, Double.parseDouble(bufferedReader.readLine()));
@@ -53,7 +51,7 @@ public class Console {
                     System.out.print("Write how much will " + namePersonWhoSpendMoney + " spend: ");
                     inputSum = Double.parseDouble(bufferedReader.readLine());
                     spendReceiver.addNewSpend(currentSpendType, inputSum, currentPerson);
-                }else if(typeOperation.equalsIgnoreCase("income")) {
+                } else if (typeOperation.equalsIgnoreCase("income")) {
                     spendReceiver.addNewIncome(currentPerson, Double.parseDouble(String.valueOf(bufferedReader.read())));
                 }
 
@@ -63,7 +61,7 @@ public class Console {
             } catch (InccorectSpendTypeException e) {
                 System.out.println("You wrote not exist spend type. Available spend types: ");
                 for (String availableSpend : SpendsNameContainer.AVAILABLE_SPENDS()) {
-                    System.out.println(availableSpend+" ");
+                    System.out.println(availableSpend + " ");
                 }
             }
 

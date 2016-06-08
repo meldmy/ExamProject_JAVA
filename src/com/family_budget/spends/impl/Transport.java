@@ -13,7 +13,7 @@ public class Transport extends Service {
 
     public Transport(String name, double price) {
 
-        this.name=name;
-        super.price=price;
+        this.name = name;
+        super.price = price;
     }
 }

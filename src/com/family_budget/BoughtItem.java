@@ -12,6 +12,5 @@ public interface BoughtItem {
     Integer getPrice();
 
 
-
     SpendType getTypeOfSpend();
 }

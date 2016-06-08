@@ -5,7 +5,7 @@ import com.family_budget.spends.Goods;
 /**
  * Created by Dmytro Melnychuk on 09.04.16.
  */
-public class Relax extends Goods{
+public class Relax extends Goods {
 
     public static String SPEND_TYPE_NAME = "Relax";
 
@@ -13,7 +13,7 @@ public class Relax extends Goods{
 
     public Relax(String name, double price) {
 
-        this.name=name;
-        super.price=price;
+        this.name = name;
+        super.price = price;
     }
 }

@@ -10,14 +10,15 @@ import com.family_budget.family.Person;
 public class SpendReceiver {
 
     private static final SpendReceiver spendReceiver = new SpendReceiver();
-    private final SpendsData spendData = new SpendsData();;
+    private final SpendsData spendData = new SpendsData();
+    ;
 
     private SpendReceiver() {
     }
 
     public void addNewSpend(String currentSpendType, double spendSum, Person personThatSpendMoney) throws InccorectSpendTypeException {
         verifyIfCurrentSpendTypeExist(currentSpendType);
-        System.out.println("Be careful because your current balance before spend equal: "+this.currentBalanceInAccount(personThatSpendMoney));
+        System.out.println("Be careful because your current balance before spend equal: " + this.currentBalanceInAccount(personThatSpendMoney));
         spendData.addNewSpend(personThatSpendMoney, new SpendCollectorPair(currentSpendType, spendSum));
 
     }
@@ -31,19 +32,19 @@ public class SpendReceiver {
         for (String typeSpend : SpendsNameContainer.AVAILABLE_SPENDS()) {
 
             if (currentSpendType.equalsIgnoreCase(typeSpend))
-                isTypedSpendTypeExist=true;
+                isTypedSpendTypeExist = true;
         }
 
-        if (isTypedSpendTypeExist==false)
+        if (isTypedSpendTypeExist == false)
             throw new InccorectSpendTypeException(currentSpendType);
 
     }
 
-    public boolean containsPerson(Person person){
+    public boolean containsPerson(Person person) {
         return spendData.getSimpleDataStorage().containsKey(person);
     }
 
-    public double currentBalanceInAccount(Person person){
+    public double currentBalanceInAccount(Person person) {
         return spendData.getCurrentBalance(person);
     }
 

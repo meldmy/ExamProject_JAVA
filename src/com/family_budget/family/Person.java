@@ -9,7 +9,6 @@ import java.util.Map;
 public interface Person {
 
 
-
     String getName();
 
     String getKeyForOperations();
@@ -21,7 +20,6 @@ public interface Person {
     Map getTotalOfSpentMoneyPerYear();
 
     Map getTotalOfSpentMoneyPerMonth(Month month);
-
 
 
 }
