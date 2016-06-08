@@ -17,7 +17,6 @@ public abstract class Service implements SpendType{
     }
 
     private void setPrice(double priceForUpdating ){
-        price=priceForUpdating;
+           price=priceForUpdating;
     }
-
 }

@@ -1,4 +1,4 @@
-package com.family_budget;
+package com.family_budget.family;
 
 import java.time.Month;
 import java.util.Map;
@@ -21,6 +21,7 @@ public interface Person {
     Map getTotalOfSpentMoneyPerYear();
 
     Map getTotalOfSpentMoneyPerMonth(Month month);
+
 
 
 }

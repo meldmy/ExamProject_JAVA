@@ -1,14 +1,12 @@
 package com.family_budget.family;
 
-import com.family_budget.Person;
-
 import java.time.Month;
 import java.util.Map;
 
 /**
  * Created by Dmytro Melnychuk on 14/05/16.
  */
-public class Father implements Person{
+public class Father extends PersonBase{
     final String name;
     private int summaryCost=0;
 

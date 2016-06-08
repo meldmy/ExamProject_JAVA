@@ -1,6 +1,6 @@
 package com.family_budget.family.fabric;
 
-import com.family_budget.Person;
+import com.family_budget.family.Person;
 import com.family_budget.family.Father;
 import com.family_budget.family.Mother;
 import com.family_budget.family.Son;
@@ -18,7 +18,7 @@ public class PersonContainer {
 
     private static final Person son = new Son(SON_NAME);
 
-    public static Person receivePerson(String personName)throws PersonIsApsentInMetaData
+    public static Person receivePerson(String personName)throws ApsentPersonInMetaDataException
     {
         if(personName.equalsIgnoreCase(mother.getKeyForOperations()))
         {
@@ -31,7 +31,7 @@ public class PersonContainer {
             return son;
         }else
         {
-            throw new PersonIsApsentInMetaData();
+            throw new ApsentPersonInMetaDataException();
         }
     }
 

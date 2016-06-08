@@ -5,11 +5,14 @@ import com.family_budget.spends.Service;
 /**
  * Created by Dmytro Melnychuk on 09.04.16.
  */
-public class Rents extends Service{
+public class Rent extends Service{
+
+    public static String SPEND_TYPE_NAME = "Rent";
+
 
     final String name;
 
-    public Rents(String name, double price) {
+    public Rent(String name, double price) {
 
         this.name=name;
         super.price=price;

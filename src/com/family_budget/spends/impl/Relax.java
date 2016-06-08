@@ -7,6 +7,8 @@ import com.family_budget.spends.Goods;
  */
 public class Relax extends Goods{
 
+    public static String SPEND_TYPE_NAME = "Relax";
+
     final String name;
 
     public Relax(String name, double price) {
