@@ -28,44 +28,73 @@ public class Console {
 
     private static void choosePersonWhoSpendMoney(BufferedReader bufferedReader) throws IOException {
         Person currentPerson;
-        double inputSum = 0;
-        String currentSpendType;
         String typeOperation;
         SpendReceiver spendReceiver = SpendReceiver.getInstance();
         String namePersonWhoSpendMoney = "";
         while (namePersonWhoSpendMoney != "exit") {
             System.out.print("Write who making this operation: ");
-
             namePersonWhoSpendMoney = bufferedReader.readLine();
+
             try {
                 currentPerson = PersonContainer.receivePerson(namePersonWhoSpendMoney);
-                System.out.print("Write which type of finance operation you will doing now (spend, income): ");
+
+                System.out.println("Choose operation type:\n1)New spend\n2)New income\n3)Get average spend sum\n4)Get current balance");
                 typeOperation = bufferedReader.readLine();
-                if (typeOperation.equalsIgnoreCase("spend")) {
-                    if (!spendReceiver.containsPerson(currentPerson)) {
-                        System.out.print("Write how much money " + currentPerson.getName() + " has now in the account: ");
-                        spendReceiver.addNewIncome(currentPerson, Double.parseDouble(bufferedReader.readLine()));
-                    }
-                    System.out.println("Write what type of spending will: ");
-                    currentSpendType = bufferedReader.readLine();
-                    System.out.print("Write how much will " + namePersonWhoSpendMoney + " spend: ");
-                    inputSum = Double.parseDouble(bufferedReader.readLine());
-                    spendReceiver.addNewSpend(currentSpendType, inputSum, currentPerson);
-                } else if (typeOperation.equalsIgnoreCase("income")) {
-                    spendReceiver.addNewIncome(currentPerson, Double.parseDouble(String.valueOf(bufferedReader.read())));
+                if (typeOperation.equalsIgnoreCase("spend") || typeOperation.contains("1")) {
+                    doSpendLogicNEED_RENAME(bufferedReader, currentPerson, spendReceiver, namePersonWhoSpendMoney);
+                } else if (typeOperation.equalsIgnoreCase("income") || typeOperation.contains("2")) {
+                    System.out.print("Write how much will " + namePersonWhoSpendMoney + " adding to account: ");
+                    spendReceiver.addNewIncome(currentPerson, Double.parseDouble(bufferedReader.readLine()));
+                }else if((typeOperation.equalsIgnoreCase("average") || typeOperation.contains("3")) ){
+                    spendReceiver.printAverageSpendSumsByType(currentPerson);
+                }else if((typeOperation.equalsIgnoreCase("current") || typeOperation.equalsIgnoreCase("balance") || typeOperation.contains("4")) ){
+                    System.out.println(spendReceiver.currentBalanceInAccount(currentPerson));
                 }
 
             } catch (ApsentPersonInMetaDataException personIsApsentInMetaData) {
                 System.out.println("You wrote incorrect name of person. Available persons: "
                         + PersonContainer.getAllAvailablePersonsFromFamilyForOperations());
             } catch (InccorectSpendTypeException e) {
-                System.out.println("You wrote not exist spend type. Available spend types: ");
-                for (String availableSpend : SpendsNameContainer.AVAILABLE_SPENDS()) {
-                    System.out.println(availableSpend + " ");
-                }
             }
 
         }
         System.out.println("See you soon...");
+    }
+
+    private static void doSpendLogicNEED_RENAME(BufferedReader bufferedReader, Person currentPerson, SpendReceiver spendReceiver, String namePersonWhoSpendMoney) throws IOException, InccorectSpendTypeException {
+        if (!spendReceiver.containsPerson(currentPerson)) {
+            System.out.print("Write how much money " + currentPerson.getName() + " has now in the account: ");
+            spendReceiver.addStartedIncome(currentPerson, Double.parseDouble(bufferedReader.readLine()));
+        }
+        System.out.println("Available spend types: ");
+        for (String availableSpend : SpendsNameContainer.AVAILABLE_SPENDS()) {
+            System.out.println(availableSpend + " ");
+        }
+        System.out.print("Write what type of spending will: ");
+        String currentSpendType="";
+//        while (!currentSpendType.equalsIgnoreCase("exit")) {
+            currentSpendType = bufferedReader.readLine();
+            if(currentSpendType.equalsIgnoreCase("quit")){
+                throw new InccorectSpendTypeException("quit");
+            }
+            try{
+                spendReceiver.verifyIfCurrentSpendTypeExist(currentSpendType);
+//                break;
+            }catch (InccorectSpendTypeException e){
+                System.out.println("You wrote not exist spend type. Available spend types: ");
+                for (String availableSpend : SpendsNameContainer.AVAILABLE_SPENDS()) {
+                    System.out.println(availableSpend + " ");
+                }
+                System.out.print("Write one else what type of spending will: ");
+                currentSpendType = bufferedReader.readLine();
+                try{
+                    spendReceiver.verifyIfCurrentSpendTypeExist(currentSpendType);
+                }catch (InccorectSpendTypeException ex) {
+                    throw new InccorectSpendTypeException("");
+                }
+            }
+//        }
+        System.out.print("Write how much will " + namePersonWhoSpendMoney + " spend: ");
+        spendReceiver.addNewSpend(currentSpendType, Double.parseDouble(bufferedReader.readLine()), currentPerson);
     }
 }

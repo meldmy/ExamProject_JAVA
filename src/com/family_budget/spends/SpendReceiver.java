@@ -1,8 +1,12 @@
 package com.family_budget.spends;
 
+import com.family_budget.data.CounterAverageSpenSum;
 import com.family_budget.data.SpendCollectorPair;
 import com.family_budget.data.SpendsData;
 import com.family_budget.family.Person;
+
+import java.util.List;
+import java.util.Map;
 
 /**
  * Created by Dmytro Melnychuk on 05/06/16.
@@ -17,7 +21,6 @@ public class SpendReceiver {
     }
 
     public void addNewSpend(String currentSpendType, double spendSum, Person personThatSpendMoney) throws InccorectSpendTypeException {
-        verifyIfCurrentSpendTypeExist(currentSpendType);
         System.out.println("Be careful because your current balance before spend equal: " + this.currentBalanceInAccount(personThatSpendMoney));
         spendData.addNewSpend(personThatSpendMoney, new SpendCollectorPair(currentSpendType, spendSum));
 
@@ -27,7 +30,11 @@ public class SpendReceiver {
         spendData.addNewIncome(personAddMoney, incomeSum);
     }
 
-    private void verifyIfCurrentSpendTypeExist(String currentSpendType) throws InccorectSpendTypeException {
+    public void addStartedIncome(Person personAddMoney, double incomeSum) {
+        spendData.addStartedIncome(personAddMoney, incomeSum);
+    }
+
+    public void verifyIfCurrentSpendTypeExist(String currentSpendType) throws InccorectSpendTypeException {
         boolean isTypedSpendTypeExist = false;
         for (String typeSpend : SpendsNameContainer.AVAILABLE_SPENDS()) {
 
@@ -50,5 +57,27 @@ public class SpendReceiver {
 
     public static SpendReceiver getInstance() {
         return spendReceiver;
+    }
+
+    public void printAverageSpendSumsByType(Person currentPerson) {
+        CounterAverageSpenSum counterAverageSpenSum = spendData.getListForCountAveregeSum(currentPerson);
+        Map<String, List<Double>> spendSumsBytype = counterAverageSpenSum.getCurrentSpendType();
+        System.out.println(currentPerson.getName() + "has follow average spends:");
+        for (Map.Entry<String, List<Double>> spendSumsByType : spendSumsBytype.entrySet()) {
+            String key = spendSumsByType.getKey();
+            double calculateAverage = this.calculateAverage(spendSumsByType.getValue());
+            System.out.println("Spend type " + key + " has average spend sum: " + calculateAverage);
+        }
+    }
+
+    private double calculateAverage(List<Double> marks) {
+        double sum = 0;
+        if (!marks.isEmpty()) {
+            for (Double mark : marks) {
+                sum += mark;
+            }
+            return sum / marks.size();
+        }
+        return sum;
     }
 }
