@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="055656c1-567a-4386-8ff0-23654a78fdc2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com/family_budget/Person.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com/family_budget/family/fabric/PersonIsApsentInMetaData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Rents.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/Console.class" afterPath="$PROJECT_DIR$/target/com/family_budget/Console.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/Hash.class" afterPath="$PROJECT_DIR$/target/com/family_budget/Hash.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/family/Father.class" afterPath="$PROJECT_DIR$/target/com/family_budget/family/Father.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/family/Mother.class" afterPath="$PROJECT_DIR$/target/com/family_budget/family/Mother.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/family/Son.class" afterPath="$PROJECT_DIR$/target/com/family_budget/family/Son.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/family/fabric/PersonContainer.class" afterPath="$PROJECT_DIR$/target/com/family_budget/family/fabric/PersonContainer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Clothes.class" afterPath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Clothes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Food.class" afterPath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Food.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Relax.class" afterPath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Relax.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Transport.class" afterPath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Transport.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Family-Budget.iws" />
@@ -842,7 +829,7 @@
       <workItem from="1464989068274" duration="2000" />
       <workItem from="1465118622915" duration="1276000" />
       <workItem from="1465142773197" duration="24997000" />
-      <workItem from="1466835269026" duration="1908000" />
+      <workItem from="1466835269026" duration="2031000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1458388796864</created>
@@ -893,15 +880,22 @@
       <option name="project" value="LOCAL" />
       <updated>1466837323571</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Functionality has been added about sum avarage spend per spend type">
+      <created>1466837343413</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1466837343413</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45403000" />
+    <option name="totallyTimeSpent" value="45526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -915,7 +909,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2703125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2703125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
