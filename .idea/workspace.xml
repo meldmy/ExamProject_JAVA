@@ -829,7 +829,7 @@
       <workItem from="1464989068274" duration="2000" />
       <workItem from="1465118622915" duration="1276000" />
       <workItem from="1465142773197" duration="24997000" />
-      <workItem from="1466835269026" duration="2031000" />
+      <workItem from="1466835269026" duration="2068000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1458388796864</created>
@@ -887,11 +887,18 @@
       <option name="project" value="LOCAL" />
       <updated>1466837343413</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Functionality has been added about sum avarage spend per spend type">
+      <created>1466837594332</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1466837594332</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45526000" />
+    <option name="totallyTimeSpent" value="45563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
