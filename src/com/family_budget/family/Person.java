@@ -3,15 +3,16 @@ package com.family_budget.family;
 import java.time.Month;
 import java.util.Map;
 
+
 /**
- * Created by Dmytro Melnychuk on 07.04.16.
+ * @author Dmytro Melnychuk
  */
-public interface Person {
+public interface Person
+{
 
+    String getFirstName();
 
-    String getName();
-
-    String getKeyForOperations();
+    String getInternalName();
 
     Integer getSallaryPerMonth();
 
@@ -19,7 +20,6 @@ public interface Person {
 
     Map getTotalOfSpentMoneyPerYear();
 
-    Map getTotalOfSpentMoneyPerMonth(Month month);
-
+    Map getTotalOfSpentMoneyPerMonth( Month month );
 
 }

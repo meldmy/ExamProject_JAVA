@@ -3,14 +3,17 @@ package com.family_budget.family;
 import java.time.Month;
 import java.util.Map;
 
+
 /**
- * Created by Dmytro Melnychuk on 05/06/16.
+ * @author Dmytro Melnychuk
  */
-public abstract class PersonBase implements Person {
+public abstract class PersonBase
+                implements Person
+{
 
-    public abstract String getName();
+    public abstract String getFirstName();
 
-    public abstract String getKeyForOperations();
+    public abstract String getInternalName();
 
     public abstract Integer getSallaryPerMonth();
 
@@ -18,7 +21,6 @@ public abstract class PersonBase implements Person {
 
     public abstract Map getTotalOfSpentMoneyPerYear();
 
-    public abstract Map getTotalOfSpentMoneyPerMonth(Month month);
-
+    public abstract Map getTotalOfSpentMoneyPerMonth( Month month );
 
 }

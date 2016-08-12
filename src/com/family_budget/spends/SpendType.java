@@ -1,9 +1,10 @@
 package com.family_budget.spends;
 
 /**
- * Created by Dmytro Melnychuk on 08.04.16.
+ * @author Dmytro Melnychuk
  */
-public interface SpendType {
+public interface SpendType
+{
 
     String getType();
 }

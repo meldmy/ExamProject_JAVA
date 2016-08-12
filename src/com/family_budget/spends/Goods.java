@@ -1,22 +1,30 @@
 package com.family_budget.spends;
 
 /**
- * Created by Dmytro Melnychuk on 08.04.16.
+ * @author Dmytro Melnychuk
  */
-public abstract class Goods implements SpendType {
+public abstract class Goods
+                implements SpendType
+{
 
     protected double price;
 
+
     @Override
-    public String getType() {
+    public String getType()
+    {
         return "Item";
     }
 
-    protected double getPrice() {
+
+    protected double getPrice()
+    {
         return price;
     }
 
-    private void setPrice(double priceForUpdating) {
+
+    private void setPrice( double priceForUpdating )
+    {
         price = priceForUpdating;
     }
 }

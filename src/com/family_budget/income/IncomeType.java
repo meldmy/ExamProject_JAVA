@@ -1,9 +1,10 @@
 package com.family_budget.income;
 
 /**
- * Created by Dmytro Melnychuk on 23/04/16.
+ * @author Dmytro Melnychuk
  */
-public interface IncomeType {
+public interface IncomeType
+{
 
     String getType();
 

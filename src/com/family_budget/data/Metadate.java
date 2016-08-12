@@ -1,9 +1,10 @@
 package com.family_budget.data;
 
 /**
- * Created by Dmytro Melnychuk on 28/05/16.
+ * @author Dmytro Melnychuk
  */
-public class Metadate {
+public class Metadate
+{
 
     public static final String FATHER_NAME = "Wiktor";
 
