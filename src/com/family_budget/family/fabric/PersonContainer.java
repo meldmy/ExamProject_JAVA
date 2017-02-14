@@ -1,8 +1,8 @@
 package com.family_budget.family.fabric;
 
-import com.family_budget.family.Person;
 import com.family_budget.family.Father;
 import com.family_budget.family.Mother;
+import com.family_budget.family.Person;
 import com.family_budget.family.Son;
 
 import static com.family_budget.data.Metadate.*;
@@ -36,10 +36,7 @@ public class PersonContainer
         {
             return son;
         }
-        else
-        {
-            throw new IncorrectPersonName();
-        }
+        throw new IncorrectPersonName();
     }
 
 

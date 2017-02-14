@@ -15,13 +15,19 @@ import java.util.Map;
 public class SpendController
 {
 
-    private static final SpendController SPEND_CONTROLLER = new SpendController();
+    private static final SpendController SPEND_CONTROLLER =
+                    new SpendController();
     private final Spends spendData = new Spends();
-    ;
 
 
     private SpendController()
     {
+    }
+
+
+    public static SpendController getInstance()
+    {
+        return SPEND_CONTROLLER;
     }
 
 
@@ -60,12 +66,11 @@ public class SpendController
         boolean isTypedSpendTypeExist = false;
         for( String typeSpend : SpendsNameContainer.AVAILABLE_SPENDS() )
         {
-
             if( currentSpendType.equalsIgnoreCase( typeSpend ) )
                 isTypedSpendTypeExist = true;
         }
 
-        if( isTypedSpendTypeExist == false )
+        if( !isTypedSpendTypeExist )
             throw new InccorectSpendTypeException( currentSpendType );
 
     }
@@ -80,12 +85,6 @@ public class SpendController
     public double currentBalanceInAccount( Person person )
     {
         return spendData.getCurrentBalance( person );
-    }
-
-
-    public static SpendController getInstance()
-    {
-        return SPEND_CONTROLLER;
     }
 
 

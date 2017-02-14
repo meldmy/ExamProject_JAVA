@@ -8,8 +8,8 @@ import com.family_budget.spends.SpendController;
 /**
  * @author Dmytro Melnychuk
  */
-public class MessangePresenterImpl
-                implements MessangePresenter
+public class MessagePresenterImpl
+                implements MessagePresenter
 {
     @Override
     public void printQuestionAboutPerson()

@@ -6,7 +6,7 @@ import com.family_budget.family.Person;
 /**
  * @author Dmytro Melnychuk
  */
-public interface MessangePresenter
+public interface MessagePresenter
 {
 
     void printQuestionAboutPerson();

@@ -1,19 +1,22 @@
 package com.family_budget;
 
 import com.family_budget.family.Person;
-import com.family_budget.family.fabric.PersonContainer;
 import com.family_budget.family.fabric.IncorrectPersonName;
+import com.family_budget.family.fabric.PersonContainer;
 import com.family_budget.spends.InccorectSpendTypeException;
 import com.family_budget.spends.SpendController;
 import com.family_budget.spends.SpendsNameContainer;
-import com.family_budget.ui.MessangePresenter;
-import com.family_budget.ui.MessangePresenterImpl;
+import com.family_budget.ui.MessagePresenter;
+import com.family_budget.ui.MessagePresenterImpl;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Optional;
 
 import static com.family_budget.Operations.*;
+import static java.lang.System.in;
+import static java.lang.System.out;
 
 
 /**
@@ -21,8 +24,7 @@ import static com.family_budget.Operations.*;
  */
 public class WorkflowCli
 {
-
-    private static MessangePresenter messenger;
+    private static MessagePresenter messenger;
     private static SpendController spendController;
     private static BufferedReader bufferedReader;
 
@@ -31,72 +33,78 @@ public class WorkflowCli
     {
         initializeFields();
         messenger.printStartInformation();
+        boolean isUserWantToExit;
+        do
+        {
+            isUserWantToExit = startUserActivity();
+        }while( isUserWantToExit );
+    }
+
+
+    private static boolean startUserActivity()
+    {
+        boolean isExitOperation;
         try
         {
-            startClientOperations();
+            String namePerson = readUserName();
+            isExitOperation = !isChoosenExit( namePerson );
+            startPersonActivity( namePerson );
         }
-        catch( ExitException e )
+        catch( IOException e )
         {
             messenger.printExitMessage();
-            System.exit( 0 );
+            isExitOperation = false;
         }
+        return isExitOperation;
     }
 
 
     private static void initializeFields()
     {
-        messenger = new MessangePresenterImpl();
+        messenger = new MessagePresenterImpl();
         spendController = SpendController.getInstance();
-        bufferedReader = new BufferedReader(
-                        new InputStreamReader( System.in ) );
+        bufferedReader = new BufferedReader( new InputStreamReader( in ) );
     }
 
 
-    private static void startClientOperations()
-                    throws IOException, ExitException
+    private static String readUserName() throws IOException
     {
-        Person currentPerson;
-        String namePerson = EMPTY;
-        while( !namePerson.equals( EXIT ) )
-        {
-            messenger.printQuestionAboutPerson();
-            namePerson = bufferedReader.readLine();
-
-            currentPerson = receivePerson( namePerson );
-            if( isReceivedPerson( currentPerson ) )
-                chooseOperation( currentPerson );
-        }
+        messenger.printQuestionAboutPerson();
+        return bufferedReader.readLine();
     }
 
 
-    private static boolean isReceivedPerson( Person currentPerson )
+    private static boolean startPersonActivity( String namePerson )
+                    throws IOException
     {
-        return currentPerson != null;
+        Optional<Person> currentPerson = receivePerson( namePerson );
+        if( currentPerson.isPresent() )
+            chooseUserOperation( currentPerson.get() );
+        return true;
     }
 
 
-    private static Person receivePerson( String namePerson )
-                    throws ExitException
+    private static Optional<Person> receivePerson( String typedUserName )
     {
-        Person currentPerson = null;
         try
         {
-            currentPerson = PersonContainer.receivePerson( namePerson );
+            return Optional.of( PersonContainer.receivePerson( typedUserName ) );
         }
         catch( IncorrectPersonName incorrectPersonName )
         {
-            if( !namePerson.equals( EXIT ) )
-                messenger.printIncorrectPersonNameInformation();
-            else
-            {
-                throw new ExitException();
-            }
+            messenger.printIncorrectPersonNameInformation();
+            return Optional.empty();
         }
-        return currentPerson;
     }
 
 
-    private static void chooseOperation( Person currentPerson )
+    private static boolean isChoosenExit( String typedUserName )
+    {
+        return typedUserName.equals( EXIT );
+    }
+
+
+    private static void chooseUserOperation( Person currentPerson )
                     throws IOException
     {
         String operationName;
@@ -147,18 +155,17 @@ public class WorkflowCli
     {
         if( !spendController.containsPerson( currentPerson ) )
         {
-            System.out.print( "Write how much money " +
-                            currentPerson.getFirstName() +
+            out.print( "Write how much money " + currentPerson.getFirstName() +
                             " has now in the account: " );
             spendController.addStartedIncome( currentPerson,
                             Double.parseDouble( bufferedReader.readLine() ) );
         }
-        System.out.println( "Available spend types: " );
+        out.println( "Available spend types: " );
         for( String availableSpend : SpendsNameContainer.AVAILABLE_SPENDS() )
         {
-            System.out.println( availableSpend + " " );
+            out.println( availableSpend + " " );
         }
-        System.out.print( "Write what type of spending will: " );
+        out.print( "Write what type of spending will: " );
         String currentSpendType = "";
         currentSpendType = bufferedReader.readLine();
         if( currentSpendType.equalsIgnoreCase( "quit" ) )
@@ -171,14 +178,13 @@ public class WorkflowCli
         }
         catch( InccorectSpendTypeException e )
         {
-            System.out.println(
-                            "You wrote not exist spend type. Available spend types: " );
+            out.println( "You wrote not exist spend type. Available spend types: " );
             for( String availableSpend : SpendsNameContainer
                             .AVAILABLE_SPENDS() )
             {
-                System.out.println( availableSpend + " " );
+                out.println( availableSpend + " " );
             }
-            System.out.print( "Write one else what type of spending will: " );
+            out.print( "Write one else what type of spending will: " );
             currentSpendType = bufferedReader.readLine();
             try
             {
@@ -190,8 +196,8 @@ public class WorkflowCli
                 throw new InccorectSpendTypeException( "" );
             }
         }
-        System.out.print( "Write how much will " +
-                        currentPerson.getInternalName() + " spend: " );
+        out.print( "Write how much will " + currentPerson.getInternalName() +
+                        " spend: " );
         spendController.addNewSpend( currentSpendType,
                         Double.parseDouble( bufferedReader.readLine() ),
                         currentPerson );

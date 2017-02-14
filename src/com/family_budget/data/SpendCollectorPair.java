@@ -1,8 +1,5 @@
 package com.family_budget.data;
 
-import com.family_budget.family.Person;
-
-
 /**
  * @author Dmytro Melnychuk
  */

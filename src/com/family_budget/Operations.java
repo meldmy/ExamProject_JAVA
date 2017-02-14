@@ -7,8 +7,6 @@ public class Operations
 {
     public static final String EXIT = "exit";
 
-    public static final String EMPTY = "";
-
     public static final String SPEND = "spend";
 
     public static final String SPEND_NUMBER = "1";

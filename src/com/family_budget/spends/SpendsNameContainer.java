@@ -2,7 +2,9 @@ package com.family_budget.spends;
 
 import com.family_budget.spends.impl.*;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
 
 
 /**
@@ -10,18 +12,6 @@ import java.util.*;
  */
 public class SpendsNameContainer
 {
-
-    public static Map<String, HashSet<String>> AVAILABLE_SPENDS_WITH_TYPE()
-    {
-        Map availableSpends = new HashMap<String, HashSet<String>>();
-        availableSpends.put( "Goods", Collections.unmodifiableSet(
-                        receiveAvailableGoods() ) );
-        availableSpends.put( "Service", Collections.unmodifiableSet(
-                        receiveAvailableServises() ) );
-        return availableSpends;
-    }
-
-
     public static Set<String> AVAILABLE_SPENDS()
     {
         Set availableSpends = new HashSet<>();
@@ -50,5 +40,4 @@ public class SpendsNameContainer
         availableGoods.add( Rent.SPEND_TYPE_NAME );
         return availableGoods;
     }
-
 }
