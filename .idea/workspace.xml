@@ -2,78 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="055656c1-567a-4386-8ff0-23654a78fdc2" name="Default" comment="Functionality has been added about sum avarage spend per spend type">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/family_budget/ExitException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/family_budget/Operations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/family_budget/WorkflowCli.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/family_budget/data/Spends.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/family_budget/family/fabric/IncorrectPersonName.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/family_budget/spends/SpendController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/family_budget/ui/MessangePresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/family_budget/ui/MessangePresenterImpl.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/family_budget/Console.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/family_budget/data/SpendsData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/family_budget/family/fabric/ApsentPersonInMetaDataException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/family_budget/spends/SpendReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com/family_budget/Console.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com/family_budget/data/SpendsData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com/family_budget/family/fabric/ApsentPersonInMetaDataException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com/family_budget/spends/SpendReceiver.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/BoughtItemImpl.class" afterPath="$PROJECT_DIR$/target/com/family_budget/BoughtItemImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/Hash.class" afterPath="$PROJECT_DIR$/target/com/family_budget/Hash.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/data/CounterAverageSpenSum.class" afterPath="$PROJECT_DIR$/target/com/family_budget/data/CounterAverageSpenSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/data/SpendCollectorPair.class" afterPath="$PROJECT_DIR$/target/com/family_budget/data/SpendCollectorPair.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/family/Father.class" afterPath="$PROJECT_DIR$/target/com/family_budget/family/Father.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/family/Mother.class" afterPath="$PROJECT_DIR$/target/com/family_budget/family/Mother.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/family/Person.class" afterPath="$PROJECT_DIR$/target/com/family_budget/family/Person.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/family/PersonBase.class" afterPath="$PROJECT_DIR$/target/com/family_budget/family/PersonBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/family/Son.class" afterPath="$PROJECT_DIR$/target/com/family_budget/family/Son.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/family/fabric/PersonContainer.class" afterPath="$PROJECT_DIR$/target/com/family_budget/family/fabric/PersonContainer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/income/NotRegularRevenue.class" afterPath="$PROJECT_DIR$/target/com/family_budget/income/NotRegularRevenue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/income/RegularRevenue.class" afterPath="$PROJECT_DIR$/target/com/family_budget/income/RegularRevenue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/income/impl/Freelance.class" afterPath="$PROJECT_DIR$/target/com/family_budget/income/impl/Freelance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/income/impl/Salary.class" afterPath="$PROJECT_DIR$/target/com/family_budget/income/impl/Salary.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/spends/Goods.class" afterPath="$PROJECT_DIR$/target/com/family_budget/spends/Goods.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/spends/InccorectSpendTypeException.class" afterPath="$PROJECT_DIR$/target/com/family_budget/spends/InccorectSpendTypeException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/spends/Service.class" afterPath="$PROJECT_DIR$/target/com/family_budget/spends/Service.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/spends/SpendsNameContainer.class" afterPath="$PROJECT_DIR$/target/com/family_budget/spends/SpendsNameContainer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Clothes.class" afterPath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Clothes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Food.class" afterPath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Food.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Relax.class" afterPath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Relax.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Rent.class" afterPath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Rent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Transport.class" afterPath="$PROJECT_DIR$/target/com/family_budget/spends/impl/Transport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Family-Budget.iml" afterPath="$PROJECT_DIR$/.idea/Family-Budget.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/BoughtItem.java" afterPath="$PROJECT_DIR$/src/com/family_budget/BoughtItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/BoughtItemImpl.java" afterPath="$PROJECT_DIR$/src/com/family_budget/BoughtItemImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/Hash.java" afterPath="$PROJECT_DIR$/src/com/family_budget/Hash.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/data/CounterAverageSpenSum.java" afterPath="$PROJECT_DIR$/src/com/family_budget/data/CounterAverageSpenSum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/data/Metadate.java" afterPath="$PROJECT_DIR$/src/com/family_budget/data/Metadate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/data/SpendCollectorPair.java" afterPath="$PROJECT_DIR$/src/com/family_budget/data/SpendCollectorPair.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/family/Father.java" afterPath="$PROJECT_DIR$/src/com/family_budget/family/Father.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/family/Mother.java" afterPath="$PROJECT_DIR$/src/com/family_budget/family/Mother.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/family/Person.java" afterPath="$PROJECT_DIR$/src/com/family_budget/family/Person.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/family/PersonBase.java" afterPath="$PROJECT_DIR$/src/com/family_budget/family/PersonBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/family/Son.java" afterPath="$PROJECT_DIR$/src/com/family_budget/family/Son.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/family/fabric/PersonContainer.java" afterPath="$PROJECT_DIR$/src/com/family_budget/family/fabric/PersonContainer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/income/IncomeType.java" afterPath="$PROJECT_DIR$/src/com/family_budget/income/IncomeType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/income/NotRegularRevenue.java" afterPath="$PROJECT_DIR$/src/com/family_budget/income/NotRegularRevenue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/income/RegularRevenue.java" afterPath="$PROJECT_DIR$/src/com/family_budget/income/RegularRevenue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/income/impl/Freelance.java" afterPath="$PROJECT_DIR$/src/com/family_budget/income/impl/Freelance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/income/impl/Salary.java" afterPath="$PROJECT_DIR$/src/com/family_budget/income/impl/Salary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/spends/Goods.java" afterPath="$PROJECT_DIR$/src/com/family_budget/spends/Goods.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/spends/InccorectSpendTypeException.java" afterPath="$PROJECT_DIR$/src/com/family_budget/spends/InccorectSpendTypeException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/spends/Service.java" afterPath="$PROJECT_DIR$/src/com/family_budget/spends/Service.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/spends/SpendType.java" afterPath="$PROJECT_DIR$/src/com/family_budget/spends/SpendType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/spends/SpendsNameContainer.java" afterPath="$PROJECT_DIR$/src/com/family_budget/spends/SpendsNameContainer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/spends/impl/Clothes.java" afterPath="$PROJECT_DIR$/src/com/family_budget/spends/impl/Clothes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/spends/impl/Food.java" afterPath="$PROJECT_DIR$/src/com/family_budget/spends/impl/Food.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/spends/impl/Relax.java" afterPath="$PROJECT_DIR$/src/com/family_budget/spends/impl/Relax.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/spends/impl/Rent.java" afterPath="$PROJECT_DIR$/src/com/family_budget/spends/impl/Rent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/family_budget/spends/impl/Transport.java" afterPath="$PROJECT_DIR$/src/com/family_budget/spends/impl/Transport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/family_budget/data/CounterAverageSpenSum.java" afterPath="$PROJECT_DIR$/src/java/com/family_budget/data/CounterAverageSpenSum.java" />
     </list>
     <ignored path="Family-Budget.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,95 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WorkflowCli.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/family_budget/WorkflowCli.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="124" column="73" selection-start-line="124" selection-start-column="73" selection-end-line="124" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Operations.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/family_budget/Operations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessangePresenterImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/family_budget/ui/MessangePresenterImpl.java">
+      <file leaf-file-name="CounterAverageSpenSum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/com/family_budget/data/CounterAverageSpenSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessangePresenter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/family_budget/ui/MessangePresenter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoughtItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/family_budget/BoughtItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonContainer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/family_budget/family/fabric/PersonContainer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/family_budget/family/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CounterAverageSpenSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/family_budget/data/CounterAverageSpenSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IncorrectPersonName.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/family_budget/family/fabric/IncorrectPersonName.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="234">
+              <caret line="13" column="81" lean-forward="false" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -202,6 +64,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -211,8 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/family_budget/type/impl/Relax.java" />
-        <option value="$PROJECT_DIR$/src/com/family_budget/income/IncomeType.java" />
         <option value="$PROJECT_DIR$/src/com/family_budget/income/NotRegularRevenue.java" />
         <option value="$PROJECT_DIR$/src/com/family_budget/income/RegularRevenue.java" />
         <option value="$PROJECT_DIR$/src/com/family_budget/income/impl/Salary.java" />
@@ -262,6 +123,8 @@
         <option value="$PROJECT_DIR$/src/com/family_budget/ExitException.java" />
         <option value="$PROJECT_DIR$/src/com/family_budget/WorkflowCli.java" />
         <option value="$PROJECT_DIR$/src/com/family_budget/Operations.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/java/com/family_budget/data/CounterAverageSpenSum.java" />
       </list>
     </option>
   </component>
@@ -271,21 +134,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="23" />
-    <option name="width" value="1276" />
-    <option name="height" value="777" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="43" />
+    <option name="y" value="24" />
+    <option name="width" value="1877" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -302,8 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -311,14 +170,8 @@
               <option name="myItemId" value="Family-Budget" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Family-Budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Family-Budget" />
+              <option name="myItemId" value="ExamProject_JAVA" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,11 +181,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Family-Budget" />
+              <option name="myItemId" value="ExamProject_JAVA" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Family-Budget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamProject_JAVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Family-Budget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamProject_JAVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -346,7 +235,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Family-Budget" />
+              <option name="myItemId" value="ExamProject_JAVA" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -354,25 +243,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="family_budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Family-Budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Family-Budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -386,7 +257,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -399,13 +271,12 @@
     <property name="project.structure.side.proportion" value="0.3862069" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.family_budget.data" />
-      <recent name="com.family_budget.spends" />
-      <recent name="com.family_budget.family.fabric" />
-      <recent name="com.family_budget" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/java/" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.family_budget.spends.impl" />
@@ -414,8 +285,11 @@
       <recent name="com.family_budget.income.impl" />
       <recent name="com.family_budget.type.impl" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.family_budget.data" />
+      <recent name="com.family_budget.spends" />
+      <recent name="com.family_budget.family.fabric" />
+      <recent name="com.family_budget" />
     </key>
   </component>
   <component name="RunManager" selected="Application.WorkflowCli">
@@ -443,19 +317,20 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="DEBUGGER_TYPE" value="Java" />
@@ -463,14 +338,15 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -491,7 +367,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <method>
         <option name="Make" enabled="true" />
@@ -519,6 +399,65 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
@@ -608,6 +547,14 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -620,27 +567,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -668,6 +594,12 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
@@ -722,6 +654,8 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
       <envs />
       <method />
     </configuration>
@@ -737,6 +671,8 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
       <envs />
       <method />
     </configuration>
@@ -774,34 +710,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -812,7 +720,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -849,6 +757,8 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
       <envs />
       <method />
     </configuration>
@@ -860,6 +770,33 @@
         <item index="0" class="java.lang.String" itemvalue="Application.WorkflowCli" />
       </list>
     </recent_temporary>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
@@ -899,6 +836,7 @@
       <workItem from="1469964616708" duration="3374000" />
       <workItem from="1470924979880" duration="38000" />
       <workItem from="1470925099538" duration="11301000" />
+      <workItem from="1487709639253" duration="2854000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1458388796864</created>
@@ -963,35 +901,50 @@
       <option name="project" value="LOCAL" />
       <updated>1466837594332</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added JUnit 5 testing framework for Java 8">
+      <created>1487713658883</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1487713658883</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added JUnit FIX">
+      <created>1487713819290</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1487713819290</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62144000" />
+    <option name="totallyTimeSpent" value="64998000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1276" height="777" extended-state="0" />
-    <editor active="true" />
+    <frame x="43" y="24" width="1877" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.230226" sideWeight="0.50940436" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.230226" sideWeight="0.4905956" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47912318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28761756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21627526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3502825" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31920904" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -999,7 +952,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3502825" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1031,6 +987,27 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -1049,43 +1026,46 @@
     <MESSAGE value="Added functionality for spend operation, controller layer for control operation,  data layer as SpendData class that was created instead database,  expanded flow in Colsole flow." />
     <MESSAGE value="Little refactor for better reading code" />
     <MESSAGE value="Functionality has been added about sum avarage spend per spend type" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functionality has been added about sum avarage spend per spend type" />
+    <MESSAGE value="Added JUnit 5 testing framework for Java 8" />
+    <MESSAGE value="Added JUnit FIX" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added JUnit FIX" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/family_budget/data/Spends.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/family_budget/data/Spends.java</url>
           <line>90</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/family_budget/data/Spends.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/family_budget/data/Spends.java</url>
           <line>31</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/family_budget/data/Spends.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/family_budget/data/Spends.java</url>
           <line>39</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/family_budget/data/Spends.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/family_budget/data/Spends.java</url>
           <line>48</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/family_budget/spends/SpendController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/family_budget/spends/SpendController.java</url>
           <line>102</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/family_budget/data/CounterAverageSpenSum.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/family_budget/data/CounterAverageSpenSum.java</url>
           <line>26</line>
           <properties />
           <option name="timeStamp" value="19" />
@@ -1104,391 +1084,308 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/family/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/spends/SpendType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/BoughtItem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/spends/Goods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/spends/SpendType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/spends/impl/Food.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/spends/Goods.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/WorkflowCli.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/spends/impl/Food.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/income/IncomeType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/WorkflowCli.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/income/RegularRevenue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/income/IncomeType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/income/impl/Salary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/income/RegularRevenue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/income/impl/Freelance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/income/impl/Salary.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/income/NotRegularRevenue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/income/impl/Freelance.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/BoughtItemImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/income/NotRegularRevenue.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/lang/Integer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/family/Mother.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/BoughtItemImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/family/Son.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar!/java/util/Map.class" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/util/Map.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/spends/impl/Food.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/family/Mother.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/spends/Goods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/family/Son.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/spends/impl/Transport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar!/java/util/Map.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/spends/impl/Relax.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="184" column="12" selection-start-line="184" selection-start-column="12" selection-end-line="184" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/spends/impl/Food.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/spends/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/spends/impl/Transport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/spends/impl/Relax.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/spends/impl/Clothes.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/spends/impl/Clothes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/FloatingDecimal.class">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/FloatingDecimal.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/spends/InccorectSpendTypeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="288" column="35" selection-start-line="288" selection-start-column="35" selection-end-line="288" selection-end-column="35" />
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/spends/InccorectSpendTypeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/family/PersonBase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/family/PersonBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/spends/SpendsNameContainer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/spends/SpendsNameContainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/family_budget/UIMessengeController.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/spends/SpendController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/spends/SpendController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/spends/impl/Rent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/spends/impl/Rent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/spends/Service.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/spends/Service.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/spends/SpendType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/spends/SpendType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/dfdf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/Oo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/data/SpendCollectorPair.java">
+    <entry file="file://$PROJECT_DIR$/src/com/family_budget/dfdf.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/family_budget/Oo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/data/SpendCollectorPair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/ui/df.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/Hash.java">
+    <entry file="file://$PROJECT_DIR$/src/com/family_budget/ui/df.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/Hash.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/family/fabric/IncorrectPersonName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/family/fabric/PersonContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/family/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/io/IOException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-          <folding>
-            <element signature="e#1066#1067#0" expanded="false" />
-            <element signature="e#1096#1097#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/ExitException.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/io/IOException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/ExitException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/data/CounterAverageSpenSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/data/Spends.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/data/Spends.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/family/Father.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/family/Father.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/data/Metadate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/data/Metadate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/lang/String.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/lang/String.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/family_budget/ui/MessangePresenter.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/family_budget/ui/MessangePresenterImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/WorkflowCli.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="198" column="31" selection-start-line="198" selection-start-column="29" selection-end-line="198" selection-end-column="31" />
+        <state relative-caret-position="271">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/ui/MessangePresenter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/Operations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="468">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/BoughtItem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/BoughtItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="90">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/ui/MessangePresenterImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/family/fabric/PersonContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/Operations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/family_budget/WorkflowCli.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/family/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="124" column="73" selection-start-line="124" selection-start-column="73" selection-end-line="124" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/data/CounterAverageSpenSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family_budget/family/fabric/IncorrectPersonName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/family_budget/data/CounterAverageSpenSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="81" lean-forward="false" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
+          <folding />
         </state>
       </provider>
     </entry>

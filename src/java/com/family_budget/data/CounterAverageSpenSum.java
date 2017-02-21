@@ -11,8 +11,7 @@ import java.util.Map;
  */
 public class CounterAverageSpenSum
 {
-    static final Map<String, List<Double>> counterSpendSumsByType =
-                    new HashMap<>();
+    static final Map<String, List<Double>> counterSpendSumsByType = new HashMap<>();
 
 
     public CounterAverageSpenSum( String currentSpendType, double spendSum )
