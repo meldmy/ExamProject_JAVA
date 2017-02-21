@@ -11,31 +11,28 @@ import java.util.Map;
  */
 public class CounterAverageSpenSum
 {
-    static final Map<String, List<Double>> counterSpendSumsByType = new HashMap<>();
+    private static final Map<String, List<Double>> SPENDS_BY_TYPE = new HashMap<>();
 
 
-    public CounterAverageSpenSum( String currentSpendType, double spendSum )
+    CounterAverageSpenSum( String currentSpendType, double spendSum )
     {
-        if( counterSpendSumsByType.containsKey( currentSpendType ) )
-        {
-            List<Double> currentSumsByType =
-                            counterSpendSumsByType.get( currentSpendType );
-            currentSumsByType.add( spendSum );
-            counterSpendSumsByType.put( currentSpendType, currentSumsByType );
-        }
-        else
-        {
-            List<Double> sumsByType = new ArrayList<>();
-            sumsByType.add( spendSum );
-            counterSpendSumsByType.put( currentSpendType, sumsByType );
-        }
+        List<Double> currentSumsByType = receiveSumsByType( currentSpendType );
+        currentSumsByType.add( spendSum );
+        SPENDS_BY_TYPE.put( currentSpendType, currentSumsByType );
+    }
 
+
+    private List<Double> receiveSumsByType( String currentSpendType )
+    {
+        return SPENDS_BY_TYPE.containsKey( currentSpendType )
+                        ? SPENDS_BY_TYPE.get( currentSpendType )
+                        : new ArrayList<>();
     }
 
 
     public Map<String, List<Double>> getCurrentSpendType()
     {
-        return counterSpendSumsByType;
+        return SPENDS_BY_TYPE;
     }
 
 }

@@ -1,12 +1,9 @@
 package com.family_budget.spends;
 
-import com.family_budget.data.CounterAverageSpenSum;
-import com.family_budget.data.SpendCollectorPair;
 import com.family_budget.data.Spends;
 import com.family_budget.family.Person;
 
 import java.util.List;
-import java.util.Map;
 
 
 /**
@@ -43,7 +40,8 @@ public class SpendController
                                                         personThatSpendMoney ) );
         spendData.addNewSpend(
                         personThatSpendMoney,
-                        new SpendCollectorPair( currentSpendType, spendSum ) );
+                        currentSpendType,
+                        spendSum );
 
     }
 
@@ -90,22 +88,16 @@ public class SpendController
 
     public void printAverageSpendSumsByType( Person currentPerson )
     {
-        CounterAverageSpenSum counterAverageSpenSum =
-                        spendData.getListForCountAveregeSum( currentPerson );
-        Map<String, List<Double>> spendSumsBytype =
-                        counterAverageSpenSum.getCurrentSpendType();
-        System.out.println( currentPerson.getFirstName() +
-                        "has follow average spends:" );
-        for( Map.Entry<String, List<Double>> spendSumsByType : spendSumsBytype
-                        .entrySet() )
-        {
-            String key = spendSumsByType.getKey();
-            double calculateAverage =
-                            this.calculateAverage( spendSumsByType.getValue() );
-            System.out.println(
-                            "Spend type " + key + " has average spend sum: " +
-                                            calculateAverage );
-        }
+        spendData.getSpendSumsBytype( currentPerson )
+                        .forEach( this::printAverageSum );
+    }
+
+
+    private void printAverageSum( String type, List<Double> spendSums )
+    {
+        double calculateAverage = calculateAverage( spendSums );
+        System.out.println( "Spend type " + type + " has average spend sum: " +
+                        calculateAverage );
     }
 
 
